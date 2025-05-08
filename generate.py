@@ -18,8 +18,8 @@ SMTP_SERVER = "smtp.gmail.com"
 SMTP_PORT = 587
 
 # Load sender credentials (Use environment variables for security)
-SENDER_EMAIL = os.getenv("SENDER_EMAIL", "fdciclubads@gmail.com")
-SENDER_PASSWORD = os.getenv("SENDER_PASSWORD", "lqej kigu tbqw upwb")  # Update securely
+SENDER_EMAIL = os.getenv("SENDER_EMAIL", "your-mail@gmail.co")
+SENDER_PASSWORD = os.getenv("SENDER_PASSWORD", "app password")  # Update securely
 
 # Create output folder if not exists
 os.makedirs(OUTPUT_FOLDER, exist_ok=True)
